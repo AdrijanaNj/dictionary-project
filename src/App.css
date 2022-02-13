@@ -7,11 +7,22 @@ a {
 }
 
 .App-header {
+  font-size: 40px;
+  text-align: center;
   margin: 30px 0;
 }
 .App-footer {
   text-align: center;
   margin: 30px 0;
+}
+.App-footer a {
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+.App-footer a:hover {
+  background: #bb5a5a;
+  color: #f2e9d0;
 }
 .App {
   max-width: 960px;
